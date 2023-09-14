@@ -21,4 +21,6 @@ taskList.innerHTML = inputForm.value;
 //7. append <li> ke <ul>
 wrapperlist.append(taskList);
 
+//8. menghilangkan karakter di dalam input
+inputForm.value="";
 });
